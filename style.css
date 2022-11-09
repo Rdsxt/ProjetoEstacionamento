@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display:flex;
+    justify-content: center;
+}
+
+#carros{
+    border: 2px solid black;
+    border-radius: 3%;
+    width: 30%;
+    padding: 3%;
+}
+
+#carros > button {
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+
+.tabela{
+    margin: auto;
+    border-spacing: 3px;
+}
+
+th {
+    background-color: beige;
+    width: 200px;
+    border: 1px solid black;
+    font-size: larger;
+}
+
+td {
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+}

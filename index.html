@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Sistema de Estacionamento</title>
+</head>
+<body>
+    <div id="container">
+        <div id="carros">
+            <h1><strong>Estacionamento</strong></h1>
+            <span>Modelo: </span><input type="text" id="modelo">
+            <br><br>
+            <span>Placa: </span><input type="text" id="placa">
+            <br><br>
+            <span>Cor: </span><input type="text" id="cor">
+            <br><br>
+            <span>Entrada: </span><input type="time" id="entrada">
+            <br><br>
+            <span>Saída: </span><input type="time" id="saida">
+            <br><br>
+            <button onclick="estacionar()">Estacionar Carro</button>
+            <button onclick="saida()">Saida do Carro</button>
+            <button onclick="mostrar()">Mostrar carros estacionados</button>
+        </div>
+    </div>
+    <br>
+    <div>
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Placa</th>
+                    <th>Cor</th>
+                    <th>Entrada</th>
+                    <th>Saida</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela">
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
