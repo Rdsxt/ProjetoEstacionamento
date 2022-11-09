@@ -10,8 +10,8 @@ body {
 #carros{
     border: 2px solid black;
     border-radius: 3%;
-    width: 30%;
     padding: 3%;
+    justify-content: center;
 }
 
 #carros > button {
